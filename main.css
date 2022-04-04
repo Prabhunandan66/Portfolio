@@ -1,0 +1,37 @@
+* {
+  font-family: "Inter";
+  margin: 0%;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.nav-menu p {
+  color: blue;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.nav-menu a {
+  padding-top: 0.5vh;
+  font-weight: 700;
+}
+.Intro {
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  height: 50vw;
+  width: 50vw;
+}
+span {
+  padding-top: 13vw;
+}
+.Intro h2 {
+  flex: 1 0 auto;
+}
+.intro-button p {
+  padding: 10px 0 10px 0;
+  /* margin: 10px; */
+}
