@@ -1,32 +1,46 @@
 * {
   font-family: "Inter";
   margin: 0%;
+  padding: 0%;
 }
 .nav-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .nav-menu p {
+  font-size: 3vw;
   color: blue;
-  font-size: 1.4rem;
   font-weight: 700;
+  padding-top: 0.5rem;
 }
 .nav-menu a {
   padding-top: 0.5vh;
+  font-size: 2vw;
+  text-decoration: none;
   font-weight: 700;
+  padding: 1vw;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .Intro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
+  padding: 2rem;
 }
 img {
   height: 50vw;
   width: 50vw;
+  padding-left: 3vw;
 }
 span {
-  padding-top: 13vw;
+  padding-top: 8vw;
 }
 .Intro h2 {
   flex: 1 0 auto;
@@ -34,4 +48,14 @@ span {
 .intro-button p {
   padding: 10px 0 10px 0;
   /* margin: 10px; */
+}
+.Intro span h1 {
+  font-size: 3vw;
+  padding-bottom: 2vw;
+}
+button {
+  padding: 1.5vw;
+  font-size: 2vw;
+  border: none;
+  border-radius: 1rem;
 }
