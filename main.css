@@ -8,6 +8,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1rem;
+  padding-left: 0;
   position: fixed;
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -28,16 +29,22 @@
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
+  color: black;
+}
+.nav-menu a:hover{
+  color: #0500ff;
+  border-radius: 0.75rem;
+  box-shadow: 6px 5px 5px #FFDD85;
 }
 .Intro {
   display: flex;
   justify-content: start;
   padding: 2rem;
 }
-img {
-  height: 50vw;
-  width: 50vw;
-  padding-left: 3vw;
+.Intro img {
+  height: 46vw;
+  width: 48vw;
+  padding-left: 4vw;
 }
 span {
   padding-top: 8vw;
@@ -58,4 +65,21 @@ button {
   font-size: 2vw;
   border: none;
   border-radius: 1rem;
+}
+.titles{
+  display: flex;
+  padding-left: 12vw;
+}
+
+.about{
+  display: flex;
+}
+.profilePicture{
+  margin-right: 12vw;
+    margin-left: 9vw;
+    height: 15vw;
+    border-radius: 2rem;
+    border-radius: 2rem;
+    border: 1vw solid #FFDD85;
+    box-shadow: 6px 5px 5px #0500ff;
 }
